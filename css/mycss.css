@@ -1,0 +1,73 @@
+.bold {
+
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.special {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    font-style: italic;
+    color: rgb(206, 3, 3);
+}
+
+body {
+    background-color: #ffc353;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.common {
+    /* background-color: #cccccc; */
+    /* border: 2px solid #ffac12; */
+    position: absolute;
+}
+
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+}
+
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 100px;
+    
+}
+
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 264px;
+    bottom: 39px;
+    padding-right: 5px;
+}
+
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 250px;
+    bottom: 39px;
+
+    padding-left: 5px;
+
+
+}
+
+.link {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 25px;
+}   
+
+
+
+.subheader {
+    float: right;
+}
